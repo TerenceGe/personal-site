@@ -3,9 +3,21 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/p5.min.js"></script>
+    <script type="text/javascript" src="/javascripts/wave.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.welcome').lettering();
+        });
+    </script>
   </head>
   <body>
-    <h1>Hello, I'm Terence Ge.</h1>
-    <p>Welcome to my personal site.</p>
+  <div style="padding-top: 205px;">
+    <p class="hello">Hello, I'm Terence Ge.</p>
+    <p class="welcome">Welcome to my personal site.</p>
+
+  </div>
   </body>
 </html>
