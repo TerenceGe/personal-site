@@ -2,7 +2,7 @@
 var yoff = 0.0; 
 
 function setup() {
-   createCanvas(1600, 400);
+   createCanvas(1600, 100);
 }
 
 function drawWave(color, option) {
@@ -12,11 +12,11 @@ function drawWave(color, option) {
   
   var xoff = 0; 
   for (var x = -100; x <= width + 100; x += option) {
-    var y = map(noise(xoff, yoff), 0, 1, 200, 300);
+    var y = map(noise(xoff, yoff), 0, 1.5, 20, 140);
     vertex(x, y); 
     xoff += 0.05;
   }
-  yoff += 0.004;
+  yoff += 0.003;
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0px;
   font-size: 14px;
-  font-family: futures, "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #000000;
   color: white;
   position: relative;
@@ -16,8 +16,15 @@ a {
 p {
   text-align: center;
   font-size: 22px;
-  font-family: Futures;
   letter-spacing: 2px;
+}
+
+.intro {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 p.welcome {
@@ -31,7 +38,7 @@ p span {
 
 canvas {
   position: fixed;
-  bottom: -123px;
+  bottom: -10px;
   z-index: -1;
 }
 
