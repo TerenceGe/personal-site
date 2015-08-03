@@ -1,9 +1,14 @@
+var c;
 
 var yoff = 0.0; 
 
 function setup() {
-   createCanvas(1600, 100);
+   c = createCanvas(window.innerWidth, 100);
 }
+
+window.onresize = function() {
+  setup();
+};
 
 function drawWave(color, option) {
   fill(color);
