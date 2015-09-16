@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Myriad Set Pro Bold';
+    src: url('./fonts/myriad-set-pro_bold.ttf');
+}
+@font-face {
+    font-family: 'Myriad Set Pro Medium';
+    src: url('./fonts/myriad-set-pro_medium.ttf');
+}
+@font-face {
+    font-family: 'Myriad Set Pro Semibold';
+    src: url('./fonts/myriad-set-pro_semibold.ttf');
+}
+@font-face {
+    font-family: 'Myriad Set Pro Text';
+    src: url('./fonts/myriad-set-pro_text.ttf');
+}
+@font-face {
+    font-family: 'Myriad Set Pro Thin';
+    src: url('./fonts/myriad-set-pro_thin.ttf');
+}
+@font-face {
+    font-family: 'Myriad Set Pro Ultralight';
+    src: url('./fonts/myriad-set-pro_ultralight.ttf');
+}
